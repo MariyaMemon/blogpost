@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.blogpost {
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.blogtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.blogbody {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.blogdate {
+    color: #777;
+}
+
+.interaction-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+button {
+    /* background-color: #4CAF50; */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+/* button:hover {
+    background-color: #45a049;
+} */
+
+/* Additional styles for the interaction buttons */
+.follow-button {
+    background-color: #2196F3;
+}
+.follow-button:hover {
+    background-color: #1a69a9;
+}
+
+.like-button {
+    background-color: #ff9800;
+}
+.like-button:hover {
+    background-color: #c17d18;
+}
+
+.share-button {
+    background-color: #3b5998;
+}
+.share-button:hover {
+    background-color: #1f3a75;
+}
+
+/* Add more styles as needed */
